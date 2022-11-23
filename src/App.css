@@ -1,0 +1,262 @@
+:root{
+    --text-primary:#000;
+    --bgPrimary:#fff;
+   --bgSecondary: #F9F9F9;
+   --pink: #0071bd;
+   --light-blue: #e6f7ff;
+   --border: #d9d9d9;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Encode Sans";
+}
+
+.main{
+  padding-bottom: 40px;
+}
+
+.app {
+  background-color: rgba(231, 231, 231, 0.39);
+}
+
+.cont-arr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.banner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 55vh;
+  justify-content: space-around;
+}
+
+.struct{
+  display: flex;
+  justify-content: space-around;
+  width: 80vw;
+  flex-direction: column;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+.home-heading-container{
+  margin-top: 70px;
+}
+
+.home-title{
+  margin-bottom: 40px;
+}
+
+.search-crypto{
+  margin: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-header {
+  background-color: rgb(53, 53, 53);
+}
+
+.home-cont{
+  height: 85vh;
+}
+
+.table-cont{
+  margin: 50px;
+  overflow: hidden;
+}
+
+.news_single{
+  width: 95%;
+  /* height: 150px; */
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 8px;
+  padding: 10px;
+  /* overflow: hidden; */
+}
+.news_logo{
+  width: 30%;
+  height: 100%;
+  margin-right: 8px;
+  object-fit: cover;
+}
+.news_content{
+  width: 70%;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+.news_content h3{
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+.news_content p{
+ font-size: .8rem;
+}
+.news_content a{
+  margin-top: 5px;
+  margin-left: 215px;
+}
+
+.news_container{
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 70px);
+
+ padding: 45px;
+}
+.news_container h2{
+  text-transform: uppercase;
+  color: #000103;
+  margin-bottom: 20px;
+}
+.news{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+
+}
+
+.coin-detail-container{
+    margin: 30px;
+}
+
+.coin-heading-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 1px solid var(--border);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 10px;
+}
+
+.coin-heading-container .coin-name{
+    font-weight: 900;
+    color: var(--pink);
+}
+
+.coin-heading-container p{
+    font-size: 1rem;
+    opacity: 0.9;
+    margin-bottom: 20px;
+}
+
+.stats-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.stats-container h2{
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin-top: 20px;
+    color: var(--pink);
+}
+
+.coin-details-heading{
+    font-weight: 700 !important;
+    margin-top: 20px !important;
+    color: var(--pink) !important;
+}
+
+.coin-stats{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--border);
+    font-size: 1rem;
+    opacity: 0.9;
+    padding: 20px;
+
+}
+
+.coin-stats-name{
+    display: flex;
+    gap: 10px;
+    font-size: 1rem;
+}
+
+.stats{
+    font-weight: 800;
+}
+
+.coin-value-statistics-heading p{
+    font-size: 1rem;
+    opacity: 0.9;
+}
+
+.coin-desc-link{
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+    padding-top: 20px;
+}
+
+.coin-desc-link h2{
+    font-weight: 700;
+    color: var(--pink);
+}
+
+.coin-desc-link p{
+    font-size: 1rem;
+    opacity: 0.9;
+}
+
+.coin-desc-link a{
+    color: var(--pink);
+}
+
+.coin-desc-link h3{
+    font-weight: 700;
+}
+
+.coin-desc{
+    flex: 0.5;
+}
+
+.coin-links{
+  padding: 0px 20px;
+    flex: 0.5;
+}
+
+.coin-link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--border);
+    padding: 20px;
+}
+
+.link-name{
+    text-transform: capitalize;
+    font-size: 1rem;
+}
+
+.coin-link a{
+    color: var(--pink);
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.coin-link:hover, .coin-stats:hover{
+    background-color: var(--bgSecondary);
+}
